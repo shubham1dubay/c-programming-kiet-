@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main()
+{
+	void printstring(char st[]);
+	char str[50];
+	printf("Enter the char name\n");
+	gets(str);
+	printstring(str);
+}
+void printstring(char st[])
+{
+	printf("%s",st);
+}
