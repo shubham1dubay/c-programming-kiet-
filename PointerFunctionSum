@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int x;
+	printf("Enter the number\n");
+	scanf("%d",&x);	
+	int y;
+	void add(int *,int *);
+	printf("Enter the secound number\n");
+	scanf("%d",&y);
+	add(&x,&y);
+} 
+    void add(int *p,int *q)
+    {
+    	int r;
+    	r=*p+*q;
+    	printf("%d",r);
+	}
