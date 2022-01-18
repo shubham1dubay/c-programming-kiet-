@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	printf("Enter the first number\n");
+	int num1;
+	scanf("%d",&num1);
+	printf("Enter the secound numner\n");
+	int num2;
+	scanf("%d",&num2);
+	int sum;
+	sum=num1+num2;
+	printf("Show the result\n");
+	printf("%d",sum);
+	return 0;
+}
